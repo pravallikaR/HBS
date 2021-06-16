@@ -5,51 +5,66 @@
     <link rel="stylesheet" href="./styles/index.css"/>
     <link rel="stylesheet" href="./styles/common.css"/>
   </head>
-  <body>
+  <body class="bg-gray">
       <div>
     <header>
-      <div>
       <img src="./assests/images/logo.png"  alt="logo" class="logo"/>
      <a href="./login.html" target="_self">Login</a>
-      </div>
     </header>
-    <article>
+    <main>
       <section>
-        <div>
+        <div class="search-background">
           <input type="search" placeholder="City" required/>
         </div>
-        <div>
+          <ul class="city-cards">
+            <li>
+              <a href="./list.html" target="_self">
+                 <img
+                src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+                alt="new-delhi"
+                class="city-images"
+               
+              /></a>
+            </li>
+            <li>
+              <a href="./list.html" target="_self">
+              <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
+              alt="goa"
+              class="city-images"
+             
+            />
+          </a>
+            </li>
+            <li>
+              <a href="./list.html" target="_self">
+              <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+              alt="Hyderabad"
+              class="city-images"
+              
+            />
+          </a>
+            </li>
+            <li>
+              <a href="./list.html" target="_self">
+              <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+              alt="kolkata-calcutta"
+              class="city-images"
+              
+            />
+          </a>
+            </li>
+          </ul>
+        
           
-         <a href="./list.html" target="_self"> <img
-            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
-            alt="new-delhi"
-            class="city-images"
-           
-          /></a>
-          <img
-            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
-            alt="goa"
-            class="city-images"
-           
-          />
-          <img
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
-            alt="Hyderabad"
-            class="city-images"
-            
-          />
-          <img
-            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
-            alt="kolkata-calcutta"
-            class="city-images"
-            
-          />
-        </div>
+        
         <div>
           <a href="#" target="_self">View More >></a>
         </div>
       </section>
-  </article>
+    </main>
       <footer>
         <div>
           <a href="./contact.html" target="_self">Contact Us</a>

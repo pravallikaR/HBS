@@ -1,3 +1,7 @@
+head,body{
+    padding: 0;
+    margin: 0;
+}
 .logo{
     width: 60px;
     height: 60px;
@@ -5,4 +9,10 @@
 .social-media{
     width:22px;
     height:20px;
+}
+header,footer{
+    background-color: rosybrown;
+}
+.bg-gray{
+    background-color: #e0e0e0;;
 }
