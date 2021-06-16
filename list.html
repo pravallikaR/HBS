@@ -2,13 +2,14 @@
 <html>
   <head>
     <title>List</title>
-    
+    <link rel="stylesheet" href="./styles/common.css"/>
+    <link rel="stylesheet" href="./styles/list.css"/>
   </head>
   <body>
       <div>
     <header>
       <div>
-        <a href="./index.html"><img src="./assests/images/logo.png" height="200px" width="150px" alt="logo"/></a>
+        <a href="./index.html"><img src="./assests/images/logo.png" class="logo" alt="logo"/></a>
         <a href="./login.html" target="_self">Login</a>
       </div>
     </header>
@@ -16,26 +17,33 @@
         <section>
           <div>
             <ul>
-               <a href="#"><li>List View</li></a> 
-                <a href="#"><li>Map View</li></a>
+               <a href="#list-view"><li>List View</li></a> 
+                <a href="#map-view"><li>Map View</li></a>
             </ul>
           </div>
-          <div>
-             <a href="./detail.html"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"></img>
+          <div id="list-view">
+             <a href="./detail.html" class="list-box">
+              <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"></img>
             <h3>Radisson Blu Hotel</h3>
         <p>5 Star</p>
-    <p>New Delhi</p></a> 
-             <a href=""><img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" ></img></a>
+    <p>New Delhi</p>
+  </a> 
+             <a href="" class="list-box"><img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" ></img>
              <h3>The Lalit New Delhi</h3>
              <p>4.5 Star</p>
              <p>New Delhi</p>
-             <a href=""><img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"></img></a>
+            </a>
+             <a href="" class="list-box"><img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"></img>
              <h3>Taj Palace</h3>
              <p>4.0 Star</p>
              <p>New Delhi</p>
+            </a>
+            </div>
+            <div id="map-view">
              <a href=""><img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"></img></a>
              <p>MAP VIEW</p>
             </div>
+            
         </section>
     </article>
         <footer>
@@ -47,22 +55,19 @@
               ><img
                 src="assests/images/facebook.png"
                 alt="facebook"
-                height="20px"
-                width="22px" 
+                class="social-media"
             /></a>
             <a href="https://www.instagram.com" target="_blank"
               ><img
-                src="assests/images/instagram.png"
+                src="./assests/images/instagram.png"
                 alt="instagram"
-                height="20px"
-                width="22px" 
+                class="social-media"
             /></a>
             <a href="https://twitter.com" target="_blank"
               ><img
-                src="assests/images/twitter.png"
+                src="./assests/images/twitter.png"
                 alt="twitter"
-                height="20px"
-                width="22px" 
+                class="social-media"
             /></a>
           </div>
           <div>
