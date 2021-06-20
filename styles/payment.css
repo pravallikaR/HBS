@@ -1,22 +1,15 @@
 .hotel-details{
      background-color: rgb(132,136,139);
-     width:50%;
-     height: 20%;
      margin :2% auto;
 }
 
 .hotel-details img{
-    width:500px;
-    height: 500px;
+    max-width:270px;
+    max-height: 300px;
 }
-.booking-details{
-    margin: 0 0 0 2%;
-}
+
 .tarrif-details{
-    margin:2%;
-    border:1px solid black;
-    border-radius: 5px;
-    padding: 1% 2%;
+   
 }
 .content h2{
 padding: 1% 0 1% 0 ;
@@ -27,4 +20,39 @@ padding: 1% 0 1% 0 ;
 .paynow{
     text-decoration: none;
     color: black;
+    align-self: center;
 }
+.payment{
+    display: flex;
+    flex-direction: column;
+}
+.hotel-details {
+    display:flex;
+    flex-direction: row;
+}
+.hoteldata{
+    padding: 2% 2% 2% 2%;
+}
+.hoteldata h2{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.hoteldata p{
+    padding-top: 3%;
+}
+.bookingdata{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background-color: rosybrown;
+    margin: 2%;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 2% 8%;
+}
+.bookingdata p b {
+    font-family: cursive;
+ }
+ .bookingdata p{
+     margin-bottom: 10px;
+ }

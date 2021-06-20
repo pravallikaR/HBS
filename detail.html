@@ -14,39 +14,61 @@
          </div>
          </header>
          <main class="content">
-        <section>
-          
-          <div class="detail-image">
-             <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"></img>
-             
-          </div>
-          <div class="detail-content">
+        <section class="detailsection">
+          <div class="detail-box">
+            <div class="detail-image">
+              <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"></img>
+              
+           </div>
+           <div class="detailform">
             <form action="payment.html" target="_self" method="GET">
-              <label for="Adults">Adults:</label>
-              <input type="number" min="1" name="adults" required/><br>
-              <label for="Name">Name:</label>
-              <input type="text" name="name" required/><br>
-              <label for="From date">From Date:</label>
-              <input type="date" name="from date" required /><br>
+              <div class="formitems">
+                <label for="Adults">Adults:</label>
+                <input type="number" min="1" name="adults" required/>
+              </div>
+              <div class="formitems">
+                <label for="Name">Name:</label>
+                <input type="text" name="name" required/>
+              </div>
+              <div class="formitems">
+                <label for="From date">From Date:</label>
+                <input type="date" name="from date" required />
+              </div>
+            <div class="formitems">
               <label for="To date">To Date:</label>
-              <input type="date" name="last date" required/><br>
+              <input type="date" name="last date" required/>
+            </div>
+            <div class="formitems">
               <label for="Total">Total:</label>
-              <input type="number" name="price" disabled/><br>
-              <button>Book Now</button>
+              <input type="number" name="price" disabled/>
+            </div>
+            <div class="formitems">
+              <div class="flex1"></div>
+              <div class="flex1">
+                <button class="bookingbutton">Book Now</button>
+              </div>
+              
+              </div>
+
               </form>
+           </div>
+          </div>
+          
+          <div class="detail-content">
+           
 
               <h2 class="detailhotel">Radisson Blu Hotel</h2>
-              <p class="paddingdetail">RATING</p>
+              <h5 class="paddingdetail cursive">RATING</h5>
               <p class="paddingdetail">5 Star</p>
-              <p class="paddingdetail">AMENITIES</p>
+              <h5 class="paddingdetail cursive">AMENITIES</h5>
           <ul class="amenities">
               <li>Room Service</li>
               <li>Restaurant</li>
               <li>Business Center</li>
               <li>Fitness Center</li>
               <li>Pool</li>
-          </ul>
-          <h5 class="paddingdetail">DESCRIPTION</h5>
+          </ul> 
+          <h5 class="paddingdetail cursive">DESCRIPTION</h5>
           <p class="paddingdetail">A hotel is an establishment that provides paid lodging on a short-term basis.</p>
           </div>
           

@@ -1,5 +1,6 @@
 .detail-image{
-    margin:2% 4% 0 4%;
+    margin:2% 4% 2% 4%;
+    text-align: center;
 }
 .detail-image img{
     width:50%
@@ -15,4 +16,36 @@
 }
 .amenities{
     padding-left: 3%;
+}
+.detail-box{
+    display: flex;
+    border:1px solid black;
+    max-height: 400px;
+    margin:2%;
+}
+.detailform{
+    border-left:1px solid black;
+    width:30%;
+    flex-shrink: 1;
+    padding: 2%;
+}
+.cursive{
+    font-family: cursive;
+}
+.formitems{
+display: flex;
+width: 100%;
+flex-direction: row;
+padding: 4.5% 0 4.5% 0;
+}
+.formitems label,
+.formitems input{
+    flex: 1;
+    width: 200px;
+}
+.bookingbutton{
+    padding: 2%;
+}
+.flex1{
+    flex:1;
 }

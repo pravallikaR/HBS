@@ -3,6 +3,33 @@
     width: 150px;
     height: 150px;
     border-radius: 25%;
+    box-shadow: 10px 10px 10px gray;
+}
+.city-cards li {
+    display: inline-block;
+    text-align: center;
+    
+}
+.city-cards li a{
+    display: inline-block;
+    position: relative;
+}
+.city-cards li .text{
+    color: #f1f1f1;
+    padding-top: 45%;
+    text-align: center;
+}
+.city-cards li .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 25%;
+    top: 0;
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+}
+.city-cards li:hover .overlay{
+    display: block;
 }
 .search-background{
     background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
