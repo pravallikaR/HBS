@@ -2,19 +2,22 @@
 <html>
   <head>
     <title>Index</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"/>
     <link rel="stylesheet" href="./styles/index.css"/>
     <link rel="stylesheet" href="./styles/common.css"/>
   </head>
   <body class="bg-gray">
       <div>
     <header>
-      <img src="./assests/images/logo.png"  alt="logo" class="logo"/>
-     <a href="./login.html" target="_self">Login</a>
+     <a class="logo"> <img src="./assests/images/logo.png"  alt="logo" /></a>
+<div class="login-holder">
+     <a href="./login.html" class="loginbutton" target="_self">Login</a>
+    </div>
     </header>
-    <main>
+    <main class="content">
       <section>
         <div class="search-background">
-          <input type="search" placeholder="City" required/>
+          <input type="search" class="search-bar" placeholder="City" required/>
         </div>
           <ul class="city-cards">
             <li>
@@ -60,16 +63,19 @@
         
           
         
-        <div>
+        <div class="viewmore">
           <a href="#" target="_self">View More >></a>
         </div>
       </section>
     </main>
       <footer>
-        <div>
+        <div class="contact">
           <a href="./contact.html" target="_self">Contact Us</a>
         </div>
-        <div>
+        <div class="copyright">
+          &copy 2021 ROOM SEARCH PVT LTD
+        </div>
+        <div class="social">
           <a href="https://www.facebook.com" target="_blank"
             ><img
               src="./assests/images/facebook.png"
@@ -89,9 +95,7 @@
               class="social-media"
           /></a>
         </div>
-        <div>
-          &copy 2021 ROOM SEARCH PVT LTD
-        </div>
+       
       </footer>
     </div>
 </body>

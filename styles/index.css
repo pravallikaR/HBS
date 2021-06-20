@@ -10,13 +10,39 @@
     background-size: cover;
     background-position: center center;
     height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .city-cards{
     margin-left: 15%;
     margin-right: 15%;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 .city-cards li{
     padding: 4%;
     display: inline-block;
+}
+.search-bar{
+background-color: #f1f1f1;
+border: 1px solid transparent;
+padding: 10px;
+border-radius: 12px;
+font-size: 16px;
+width:30%;
+}
+.viewmore{
+    text-align: center;
+}
+.viewmore a{
+    text-decoration: none;
+    color: black;
+}
+.login-holder{
+    padding: 1%;
+}
+.login-holder a{
+    vertical-align: middle;
 }

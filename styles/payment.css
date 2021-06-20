@@ -18,3 +18,13 @@
     border-radius: 5px;
     padding: 1% 2%;
 }
+.content h2{
+padding: 1% 0 1% 0 ;
+}
+.content p{
+    padding: 1% 0 1% 0;
+}
+.paynow{
+    text-decoration: none;
+    color: black;
+}

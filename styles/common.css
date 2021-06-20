@@ -1,8 +1,11 @@
-head,body{
+/* cyrillic-ext */
+
+head,body,*{
     padding: 0;
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
-.logo{
+.logo img{
     width: 60px;
     height: 60px;
 }
@@ -12,7 +15,42 @@ head,body{
 }
 header,footer{
     background-color: rosybrown;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    top:0;
+}
+footer{
+    bottom: 0;
 }
 .bg-gray{
     background-color: #e0e0e0;;
+}
+
+.content{
+    padding-top: 63px;
+    padding-bottom: 60px;
+}
+
+.loginbutton{
+    text-decoration: none;
+    color:black;
+}
+.contact{
+    padding: 1%;
+}
+.contact a{
+    text-decoration: none;
+    color:black;
+}
+.copyright{
+    align-self: flex-end;
+    padding: 0.5%;
+    font-size: 12px;
+}
+.social{
+padding: 1%;
 }
