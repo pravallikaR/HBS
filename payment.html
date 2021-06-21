@@ -2,6 +2,10 @@
 <html>
   <head>
     <title>Payment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+ 
     <link rel="stylesheet" href="./styles/common.css"/>
     <link rel="stylesheet" href="./styles/payment.css"/>
   </head>
@@ -9,10 +13,72 @@
       <div>
         <header>
           <a class="logo"> <img src="./assests/images/logo.png"  alt="logo" /></a>
-     <div class="login-holder">
-          <a href="./login.html" class="loginbutton" target="_self">Login</a>
-         </div>
+          <div class="login-holder">
+            <button type="button" data-toggle="modal" data-target="#loginModal" class="btn btn-light" target="_self">Login</button>
+           
+           </div>
          </header>
+         
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Please Login</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Username</label>
+                <div class="col-sm-10">
+                  <input type="text" placeholder="enter your username" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="enter your password">
+                </div>
+              </div>
+              
+            </form>
+          </div>
+          <div class="modal-footer  justify-content-center">
+            <button type="button" class="btn btn-primary">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="getintouchModal" tabindex="-1" aria-labelledby="getintouchModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="getintouchModalLabel">Get in touch</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+           <p>Thank you for reaching to us</p>
+           <p>Please enter your email, we will get in touch with you.</p>
+           <form class="form-inline">
+            
+            <div class="form-group  mb-2">
+              <label for="inputPassword2" class="mr-2">Email</label>
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Enter your Email id">
+            </div>
+          </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
          <main class="content">
         <section class="payment">
           
@@ -36,7 +102,10 @@
             <p><b>Tariff Breakdown:</b> Rs 1000 x 2 Adults x 5 Nights</p>
             <p><b>Total Amount:</b> Rs 10000</p>
           </div>
-          <a class="paynow" href="#">Pay now</a>
+          <div class="paynow">
+            <button type="button" class="btn btn-success btn-disabled"  disabled>Pay now</button>
+          </div>
+         
           </div>
             
         </section>
@@ -44,7 +113,8 @@
       </main>
       <footer>
         <div class="contact">
-          <a href="./contact.html" target="_self">Contact Us</a>
+          <button type="button" data-toggle="modal" data-target="#getintouchModal" class="btn btn-info" target="_self">Contact Us</button>
+          
         </div>
         <div class="copyright">
           &copy 2021 ROOM SEARCH PVT LTD

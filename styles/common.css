@@ -17,7 +17,7 @@ header,footer{
     background-color: rosybrown;
     position: fixed;
     width: 100%;
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
 }
 header{

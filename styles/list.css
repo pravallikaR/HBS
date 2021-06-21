@@ -6,8 +6,11 @@
 .list-box{
     background-color:lightgray;
     margin: 2%;
-    width:40%;
+    width:46%;
     
+}
+.list-box :hover{
+    background-color: rosybrown;
 }
 .list-box a{
     display: flex;
@@ -18,12 +21,11 @@
     padding-top: 14px;
     padding-bottom: 14px;
 }
+
 .list-box p{
     padding-bottom: 14px;
 }
-.listnavigation{
-padding: 1%;
-}
+
 .listnavigation ul {
     list-style: none;
     padding: 0;
@@ -41,15 +43,12 @@ font-weight: bold;
 text-decoration: none;
 color:black;
 }
-#list-view{
-    display: flex;
-    
-    flex-wrap: wrap;
-}
-#map-view{
-    display: none;
-}
+
 .listdetail-content{
     display: inline-block;
     padding-left: 3%;
+}
+.list-panel-box{
+    display: flex;
+    flex-wrap: wrap;
 }
