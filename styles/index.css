@@ -67,12 +67,26 @@ width:30%;
     text-decoration: none;
     color: black;
 }
-.login-holder{
-    padding: 1%;
-}
+
 .login-holder a{
     vertical-align: middle;
 }
 section{
     margin-bottom: 40px;
+}
+
+@media  screen and  (max-width:768px){
+    .city-cards{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media  screen and  (max-width:576px){
+    .city-cards{
+        display:block;
+    }
+    .city-cards li{
+        display: block;
+    }
 }

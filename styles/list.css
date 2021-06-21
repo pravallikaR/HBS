@@ -52,3 +52,32 @@ color:black;
     display: flex;
     flex-wrap: wrap;
 }
+
+@media  screen and  (max-width:768px){
+    .list-panel-box{
+        display: block;
+    }
+    .list-box{
+        width: 100%;
+    }
+    
+}
+
+@media  screen and  (max-width:576px){
+    .list-box a{
+        display: block;
+    }
+    .list-panel-box{
+        display: block;
+    }
+    .list-box{
+        width: 100%;
+    }
+    .list-box  img{
+        display: block;
+        width: 100%;
+    }
+    .listdetail-content{
+        display: block;
+    }
+}
